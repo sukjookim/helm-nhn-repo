@@ -3,7 +3,7 @@ entries:
   nhn:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-19T18:27:24.07924178+09:00"
+    created: "2021-03-20T13:58:28.110540748+09:00"
     description: A Helm chart for nhn chart
     digest: 9a6abd35c0614ac5f4bb11438224f534bc00525aaf4e9c5030e243ad7638fcba
     name: nhn
@@ -11,4 +11,15 @@ entries:
     urls:
     - nhn-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-19T18:27:24.077359373+09:00"
+  rook-ceph:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-03-20T13:58:28.111635144+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 78907ef8c9937e2473728ee88721adb47a491b124de36f0856ca7df48e0cd15e
+    name: rook-ceph
+    type: application
+    urls:
+    - rook-ceph-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-03-20T13:58:28.109737499+09:00"
