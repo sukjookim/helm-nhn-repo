@@ -3,7 +3,7 @@ entries:
   nhn:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-20T13:58:28.110540748+09:00"
+    created: "2021-03-20T14:27:40.511010452+09:00"
     description: A Helm chart for nhn chart
     digest: 9a6abd35c0614ac5f4bb11438224f534bc00525aaf4e9c5030e243ad7638fcba
     name: nhn
@@ -14,7 +14,17 @@ entries:
   rook-ceph:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-20T13:58:28.111635144+09:00"
+    created: "2021-03-20T14:27:40.513524745+09:00"
+    description: A Helm chart for Kubernetes
+    digest: f36877c9885124a2a37d3e315fb9b8e13f3732f66e99cbd45b086d0b61c7045b
+    name: rook-ceph
+    type: application
+    urls:
+    - rook-ceph-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-03-20T14:27:40.512228509+09:00"
     description: A Helm chart for Kubernetes
     digest: 78907ef8c9937e2473728ee88721adb47a491b124de36f0856ca7df48e0cd15e
     name: rook-ceph
@@ -22,4 +32,15 @@ entries:
     urls:
     - rook-ceph-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-20T13:58:28.109737499+09:00"
+  rook-demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-03-20T14:27:40.513836329+09:00"
+    description: A Helm chart for Kubernetes
+    digest: a1c9c95a8b1e92c297452f56930057537be542550aea593ed4d7103af8c6bda0
+    name: rook-demo
+    type: application
+    urls:
+    - rook-demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-03-20T14:27:40.509364252+09:00"
